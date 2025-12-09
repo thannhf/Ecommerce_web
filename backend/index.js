@@ -10,7 +10,7 @@ const cors = require("cors");
 app.use(express.json());
 app.use(cors());
 
-mongoose.connect("mongodb+srv://thanhnguyen126agz:thanhnguyen126agz@cluster0.wfdyjkb.mongodb.net/Ecommerce-Web?appName=Cluster0");
+mongoose.connect("");
 
 app.get("/", (req, res) => {
     res.send("Express App is running!");
